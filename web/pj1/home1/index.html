@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>참좋은여행</title>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+</head>
+<body>
+    <!-- header section start-->
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/logo2.png" alt="">
+        </a>
+
+        <nav class="navbar">
+            <a href="#world">해외여행</a>
+            <a href="#koreajj">국내/제주</a>
+            <a href="#themes">테마여행</a>
+            <a href="#premium">프리미엄</a>
+            <a href="#area">지방출발</a>
+            <a href="#airhotel">항공/호텔</a>
+            <a href="#event">기획전</a>
+        </nav>
+              
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <!-- <div class="fas fa-shopping-cart" id="cart-btn"></div> -->
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+    </header>
+    <!-- header section end-->
+
+    <!-- home section starts-->
+    <section class="home" id="home">
+        <div class="content">
+            <h3 data-aos="fade-up">참좋은여행</h3>
+            <p>어디로 떠나고 싶으신가요?</p>
+            <a href="#" class="btn">이벤트 바로가기</a>
+        </div>
+    </section>
+    <!-- home section end-->
+
+    <!-- world section starts-->
+    <section class="world" id="world">
+        <h1 class="heading"><span>해외</span>여행</h1>
+        <div class="row">   
+            <swiper-container style="--swiper-navigation-color: #79c7e3; --swiper-pagination-color: #79c7e3;" class="mySwiper"
+            speed="600" parallax="true" pagination="true" pagination-clickable="true" navigation="true">
+            <div slot="container-start" class="parallax-bg"
+              style="background-image: url();" data-swiper-parallax="-23%"></div>
+        
+            <swiper-slide>
+                <div class="image">
+                    <img src="images/world1.jpg" alt="">
+                
+                <div class="content">
+                    <h3>[벚꽃시즌한정] 오사카/교토/나라 4일</h3>
+                    <p>오사카 벚꽃시즌 한정상품<br>
+                        오사카 시내호텔 3연박<br>
+                        오사카성 고자부네 뱃놀이포함<br>
+                        벚꽃가득한 산책 철학의길</p>
+                    <p>2023.03.24 (금) 10:00 인천 출발 / 
+                    2023.03.24 (금) 11:50 오사카 도착<br>
+                    2023.03.27 (월) 12:50 오사카 출발 / 
+                    2023.03.27 (월) 14:50 인천 도착</p>
+                    <h4>999,000원~</h4>
+                    <a href="#" class="btn">자세히 보기</a>
+                </div>
+            </div>
+            </swiper-slide>
+
+            <swiper-slide>
+                <div class="image">
+                    <img src="images/world2.jpg" alt="">
+                
+                <div class="content">
+                    <h3>모든시간 반하는 봄의 도시/ 달랏 직항 4일</h3>
+                    <p>바오다이별장,크레이지 하우스<br>
+                        플라워가든,달랏 기차역, 림푸억사원<br>
+                        죽림선원,다따란 목포, 대성당<br>
+                        호아손 국립공원, 클레이 터널,쑤언흐엉 호수</p>
+                    <p>2023.03.22 (수) 02:30 인천 출발
+                        2023.03.22 (수) 05:50 달랏 도착<br>
+                        2023.03.25 (토) 17:10 달랏 출발
+                        2023.03.25 (토) 23:55 인천 도착</p>
+                    <h4>699,000원~</h4>
+                    <a href="#" class="btn">자세히 보기</a>
+                </div>
+            </div>
+
+            </swiper-slide>
+            <swiper-slide>
+              <div class="image">
+                    <img src="images/world3.jpg" alt="">
+                
+                <div class="content">
+                    <h3>CITY 워킹투어+포트스테판 6일</h3>
+                    <p>호주 젯스타항공 직항/ 유류세ZERO<br>
+                        전 일정 특급호텔 UP!<br>
+                        워킹투어 포함(서큘러키/달링하버)<br>
+                        모래 언덕에서 즐기는 사막체험</p>
+                    <p>2023.03.24 (금) 21:55 인천 출발
+                        2023.03.25 (토) 10:15 시드니 도착<br>
+                        2023.03.29 (수) 12:00 시드니 출발
+                        2023.03.29 (수) 20:15 인천 도착</p>
+                    <h4>1,290,000원~</h4>
+                    <a href="#" class="btn">자세히 보기</a>
+                </div>
+            </div>
+            </swiper-slide>
+          </swiper-container>
+        </div>
+    </section>
+    <!-- world section end-->
+
+    <!-- koreajj section starts -->
+    <section class="koreajj" id="koreajj">
+        <h1 class="heading">국내/<span>제주</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/korea-1.jpg" alt="">
+                <h3>[서울출발]<br>울릉도 관광호텔급 3일</h3>
+                <p>
+                    서울↔묵호/강릉 셔틀차량 포함<br>
+                    관광호텔(펜션)급 숙소와 식사 6회<br>
+                    울릉도 육로관광(A, B코스)<br>
+                    선택관광 가능 (독도/죽도/유람선 등)</p>
+                    
+                <div class="price"><span>390,000원~</span></div>
+                <a href="#" class="btn">더보기</a>
+            </div>
+
+            <div class="box">
+                <img src="images/korea-2.jpg" alt="">
+                <h3>[서울출발/한상차림시즌2]<br>오멍,가멍 맛있는 제주 3일</h3>
+                <p>제주 별미만 엄선한 "제주 특식" 제공<br>
+                    사계절 언제 찾아도 변함없는 푸른 녹차밭 "오설록 티뮤지엄"<br>
+                    몸과 마음을 따뜻하게 해주는 족욕체험 "지이32"<br>
+                    인생샷을 남길 수 있는 초대형 스튜디오 "드르쿰다 in 성산"</p>
+                <div class="price"><span>460,000원~</span></div>
+                <a href="#" class="btn">더보기</a>
+            </div>
+
+            <div class="box">
+                <img src="images/korea-3.jpg" alt="">
+                <h3>[서울출발]<br> 홍도/흑산도/비금/도초도 3일</h3> 
+                <p>4명이상 출발확정<br> 
+                    홍도/흑산도/비금도/도초도 일정<br> 
+                    홍도 유람선 관광<br> 
+                    흑산도 선택관광 유람선/ 버스관광 中 택1
+                </p>                
+                <div class="price"><span>389,000원~</span></div>
+                <a href="#" class="btn">더보기</a>
+            </div>
+
+            <div class="box">
+                <img src="images/korea-4.jpg" alt="">
+                <h3>[서울출발/한상차림]<br>맛과 멋이 있는 여수/순천/남해 3일</h3>
+                <p>최소인원 6명 출발<br>
+                    전 객실 오션뷰 '골드비치 리조트' 숙박<br>
+                    김포<->사천 오전출발-오후도착 황금스케줄 항공 이용<br>
+                    남도가 품은 지역 한상차림</p>
+                <div class="price"><span>629,000원~</span></div>
+                <a href="#" class="btn">더보기</a>
+            </div>
+
+            
+
+        </div>
+    </section>
+    <!-- koreajj section end -->
+
+    <!-- themes section starts -->
+    <section class="themes" id="themes">
+        <h1 class="heading">테마<span>여행</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="image">
+                    <img data-aos="flip-down" src="images/themes-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>걸으며 만나는 치유의 길</h3>
+                    <h4>산티아고 순례길<br>10박 11일</h4>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="image">
+                    <img data-aos="flip-down" src="images/themes-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>풍경이 있는 기차 여행</h3>
+                    <h4>일본 기차여행<br>8박 9일</h4>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="image">
+                    <img data-aos="flip-down" src="images/themes-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>문화와 예술, 도시여행</h3>
+                    <h4>파리와 노르망디(몽생미셸)<br>8박 9일</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- themes section end -->
+
+    <!-- premium section starts -->
+    <section class="premium" id="premium">
+        <h1 class="heading">
+            프리<span>미엄</span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                <img src="images/premium-1.jpg" class="pre" alt=""></div>
+                <p>라르고 플러스 상품<br>
+                    특급호텔 (마운트쿡 숙박 포함)<br>
+                    허미티지 알파인 디너 뷔페식<br>
+                    인솔자 동반+차량 업그레이드<br>
+                    시드니 인사이드 워킹투어</p>
+                <h3>[프리미엄]<br>호주/뉴질랜드 10일</h3>
+                <a href="#" class="btn">4,601,000원 부터~</a>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/premium-2.jpg" class="pre" alt=""></div>
+                    <p>노팁/노옵션/노쇼핑<br>
+                        전일정 프리미엄급 호텔 숙박<br>
+                        핵심도시 2연박 (밴프/빅토리아)<br>
+                        로키 3대 국립공원 & 5대 호수<br>
+                        캐나다 도시간 항공이동</p>
+                    <h3>[프리미엄]<br>캐나다 밴쿠버/로키/빅토리아 9일</h3>
+                    <a href="#" class="btn">9.875,000원 부터~</a>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/premium-3.jpg" class="pre" alt=""></div>
+                    <p>플롬열차/베르겐 케이블카<br>
+                        스톡홀름-헬싱키 크루즈<br>
+                        오슬로 국립미술관<br>
+                        3대 피오르드(게이랑에르/송네/하당에르)<br>
+                        전문 인솔자 동행
+                    <h3>[프리미엄]<br>북유럽 4개국 10일</h3>
+                    <a href="#" class="btn">6,990,000원 부터~</a>
+            </div>
+
+        </div>
+    </section>
+    <!-- premium section end -->
+
+    <!-- area section starts -->
+    <section class="area" id="area">
+        <h1 class="heading"><span>지방</span>출발</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="content-box">
+                    <div class="title">부산출발</div>
+                </div>
+                <div class="content">
+                    <div class="conbox1">
+                        <a href="https://www.verygoodtour.com/Product/PackageDetail?ProCode=JPP843-230322LJ3&PriceSeq=1&MenuCode=leaveLayer" target=”_blank”>
+                        <img data-aos="fade-up" src="images/busan-1.jpg" alt=""></a>
+                        <p>눈의왕국, 비에이/후라노/소운쿄/오타루/삿포로/북해도 4일</p>
+                    </div>
+                    <div class="conbox2">
+                        <a href="https://www.verygoodtour.com/Product/PackageDetail?ProCode=APP9941-230322VJ&PriceSeq=16&MenuCode=leaveLayer" target=”_blank”><img data-aos="fade-up" src="images/busan-2.jpg" alt=""></a>
+                        <p>다낭,5성급 호텔/SNS유명맛집/바나힐/호이안+오전자유 5일</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="content-box">
+                    <div class="title">대구출발</div>
+                </div>
+                <div class="content">
+                    <div class="conbox1">
+                        <a href="https://www.verygoodtour.com/Product/PackageDetail?ProCode=APPT984-230322&PriceSeq=1&MenuCode=leaveLayer" target=”_blank”><img data-aos="fade-up" src="images/daegu-1.jpg" alt=""></a>
+                        <p>#파타야 5성급호텔 #루프탑야경관람 5일/6일</p>
+                    </div>
+                    <div class="conbox2">
+                        <a href="https://www.verygoodtour.com/Product/PackageDetail?ProCode=APPT911-230427&PriceSeq=1&MenuCode=106100301" target=”_blank”><img data-aos="fade-up" src="images/daegu-2.jpg" alt=""></a>
+                        <p>대만/지우펀/단수이/예류해상공원/고궁박물관+스펀 천등체험 5일</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="content-box">
+                    <div class="title">무안출발</div>
+                </div>
+                <div class="content">
+                    <div class="conbox1">
+                        <img data-aos="fade-up" src="images/muan-1.jpg" alt="">
+                        <p>다낭/호이안/후에# SNS 유명 맛집 #바나힐 #후에관광 #전신마사지 5일</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+            
+    </section>
+    <!-- area section end -->
+
+
+    <!-- airhotel section starts -->
+    <section class="airhotel" id="airhotel">
+        <h1 class="heading">항공/<span>호텔</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image1">
+                    
+                <div class="content">
+                    <div class="title">전세계 항공권</div>
+                    <span>참좋은여행에서...</span>
+                    
+                    <a href="https://air.verygoodtour.com?menuCode=10309" target=”_blank” class="btn">예약하기</a>
+                </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image2">
+                
+                <div class="content">
+                    <div class="title">전세계 호텔</div>
+                    <span>참좋은여행에서...</span>
+                    
+                    <a href="https://hotel.verygoodtour.com/?menuCode=10307" target=”_blank” class="btn">예약하기</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- airhotel section end -->
+
+
+    <!-- event section starts -->
+    <section class="event" id="event">
+        <h1 class="heading"><span>기획전</span></h1>
+        <div class="container">
+            <div class="box box1">
+                <div class="in">
+                    <h4>작은 마을이 더 아름답습니다</h4>
+                    <p>Season1. 이탈리아 소도시</p>
+                </div>
+            </div>
+            <div class="box box2">
+                <div class="in">
+                    <h4>봄에 만나는 순백</h4>
+                    <p>도야마 알펜루트 설벽</p>
+                </div>
+            </div>
+            <div class="box box3">
+                <div class="in">
+                    <h4>고야와 가우디를 만나러 갑니다</h4>
+                    <p>사라고사·바르셀로나가 낳은 두 천재</p>
+                </div>
+            </div>
+            <div class="box box4">
+                <div class="in">
+                    <h4>주인공이 되는 순간</h4>
+                    <p>켄싱턴 호텔 사이판</p>
+                </div>
+            </div>
+            <div class="box box5">
+                <div class="in">
+                    <h4>당신의 선택에 후회가 없도록</h4>
+                    <p>카타르항공 타고 스페인 비스터콜렉션</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- event section end -->
+
+
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+        <div class="share">
+            <a href="https://www.facebook.com/verygoodtour" target=”_blank” class="fab fa-facebook-f"></a>
+            <a href="https://story.kakao.com/ch/verygoodtour" target=”_blank” class="fab fa-k"></a>
+            <a href="https://www.instagram.com/verygoodtour_official/" target=”_blank” class="fab fa-instagram"></a>
+            <a href="https://www.youtube.com/user/verygoodtourofficial" target=”_blank” class="fab fa-youtube"></a>
+            <a href="https://blog.naver.com/vgt0901" target=”_blank” class="fab fa-b"></a>
+        </div>
+
+        <div class="links">
+            <a href="#" target=”_blank”>개인정보처리방침</a>
+            <a href="#" target=”_blank”>회사소개</a>
+            <a href="#" target=”_blank”>찾아오시는길</a>
+            <a href="#" target=”_blank”>이용약관</a>
+            <a href="#" target=”_blank”>여행약관</a>
+            <a href="#" target=”_blank”>여행자보험</a>
+            <a href="#" target=”_blank”>고객센터</a>
+        </div>
+
+        <div class="fin">
+            <p>※ 참좋은여행(주)은 개별 항공권과 호텔 숙박권 판매에 대하여 통신판매중개자로서 통신판매의 당사자가 아니며 해당 상품의 거래 정보 및 거래 등에 대해 책임을 지지 않습니다.</p>
+        </div>
+
+        <div class="credit">
+            created by <span>kh</span> | all rights reserved
+        </div>
+    </section>
+
+    <!-- footer section end -->
+
+    <script>
+        AOS.init();
+      </script>
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+
+</body>
+</html>
