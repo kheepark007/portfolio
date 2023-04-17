@@ -663,7 +663,7 @@ ul li a:hover{
 }
 
 
-@media (max-width:450px){
+@media (max-width:400px){
 
     .home .inner .text_box{
         left: 5.5rem;
