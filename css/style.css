@@ -9041,7 +9041,7 @@ textarea.form-control {
   .videocontainer .video-list-container .list{
       display: flex;
       align-items: center;
-      gap: 15px;
+      gap: 10px;
       padding: 10px;
       background-color: #eee;
       cursor: pointer;
@@ -9064,7 +9064,7 @@ textarea.form-control {
     border-radius: 5px;}
   
   .videocontainer .video-list-container .list .list-title{
-    font-size: 18px;
+    font-size: 16px;
     color: #444;}
 
 
