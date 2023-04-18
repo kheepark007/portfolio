@@ -552,6 +552,49 @@ pre {
       bottom: 5rem;
     }}
 
+  .website .box-container{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+      gap: 1.5rem;
+  }
+  
+  .website .box-container .box{
+      padding: 2rem;
+      text-align: center;
+  }
+
+  .website .box-container .box img{
+      width: 100%;
+      height: 24rem;
+  }
+  
+  .website .box-container .box h3{
+      color: #555;
+      font-size: 1.5rem;
+      padding: 1rem 0;
+  }
+  
+  .website .box-container .box p{
+      color: #aaa;
+      font-size: 1rem;
+      padding-bottom: 1rem;
+  }
+  
+  .webbtn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    font-size: 1rem;
+    color: #555;
+    background: #ffffff;
+    border: 1px solid #aaa;
+}
+
+.webbtn:hover{
+    background-color: #00bdd9;
+    color: #fff;
+}
+  
 .container {
   width: 100%;
   padding-right: 15px;
