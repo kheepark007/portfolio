@@ -415,11 +415,14 @@ pre {
   overflow-y: scroll; }
 
   svg {
-    width: 40%;
+    width: 350px;
     animation: rotate infinite linear;
     mix-blend-mode: multiply;
-    margin: 130px -8%;
+    margin: 190px -10%;
+    margin-left: -10px;
+    overflow: hidden;
   }
+
   svg:nth-child(1) {
     fill: #cef8ff;
     animation-duration: 4s;
@@ -473,6 +476,81 @@ pre {
     90%{text-shadow: 5px 5px 0px #80d9e7;}
     100% {text-shadow: 5px 0px 0px #3bd0e7;}
   }
+
+
+  @media (max-width: 360px) {
+    svg{
+      width: 80px;
+      margin-left: 3%;
+      } 
+    
+    .title{
+      animation: none;
+      font-size: 2rem;
+      bottom: 15rem;
+    }}
+
+  @media (min-width: 360px) {
+    svg{
+      width: 80px;
+      margin-left: 3%;
+      } 
+    
+    .title{
+      animation: none;
+      font-size: 2rem;
+      bottom: 15rem;
+    }}
+  
+  @media (min-width: 576px) {
+    svg{
+      width: 130px;
+      margin-left: 2%;
+      } 
+       .title{
+        font-size: 3rem;
+        letter-spacing: .2em;
+        animation: text 2s infinite;
+        bottom: 11rem;
+      }}
+  
+  @media (min-width: 768px) {
+    svg{
+      width: 200px;
+      margin-left: 2%;
+      } 
+      .title{
+        font-size: 3.5rem;
+        letter-spacing: .2em;
+        animation: text 2s infinite;
+        bottom: 9rem;
+      }
+    }
+  
+  @media (min-width: 992px) {
+    svg{
+      width: 260px;
+      margin-left: 2.5%;
+      margin-bottom: 20%;
+      }
+      .title{
+        font-size: 5rem;
+        letter-spacing: .2em;
+        animation: text 2s infinite;
+        bottom: 7rem;
+      } }
+  
+  @media (min-width: 1200px) {
+    svg{
+      width: 320px;
+      margin-left: 3%;
+      } 
+    .title{
+      font-size: 5vw;
+      letter-spacing: .2em;
+      animation: text 2s infinite;
+      bottom: 5rem;
+    }}
 
 .container {
   width: 100%;
