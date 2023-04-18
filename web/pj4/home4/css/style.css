@@ -52,7 +52,7 @@ ul li a:hover{
 }
 
 .header .logo img{
-    height: 3rem;
+    height: 2.2rem;
 }
 
 .header .navbar a{
@@ -68,7 +68,7 @@ ul li a:hover{
 }
 
 .header .icons div{
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-left: 2rem;
     cursor: pointer;
 }
@@ -512,7 +512,7 @@ ul li a:hover{
 
     .home .inner .text_box{
         position: absolute;
-        top: 15rem;
+        top: 13rem;
         left: 15rem;
     }
 
@@ -536,21 +536,21 @@ ul li a:hover{
     .box1{
         display: flex;
         flex-direction: column;
-        height: 90rem;
+        height: 70rem;
     }
     
     .box1 h1{
         font-size: 3rem;
         text-align: center;
-        padding-top: 8rem;
-        padding-bottom: 3rem;
+        padding-top: 6rem;
+        padding-bottom: 1rem;
         font-weight: bold;
         color: #555;
     }
     
     .box1_left{
         width: 100%;
-        height: 33rem;
+        height: 31rem;
         background-image: url(../img/k-m1.jpg);
         color: #555;
         text-align: center;
@@ -562,17 +562,18 @@ ul li a:hover{
     }
     
     .box1_left .text_box{
-        padding-top: 18rem;}
+        padding-top: 16rem;}
     .box1_left .text_box h1{
-        font-size: 2rem;
+        font-size: 1.8rem;
         padding-bottom: 1rem;}
     .box1_left .text_box p{
-        font-size: 1.3rem;
-        padding-bottom: 2rem;}
+        font-size: 1.1rem;
+        padding-bottom: 1rem;}
+
     
     .box1_right{
         width: 100%;
-        height: 33rem;
+        height: 31rem;
         background-image: url(../img/k-m2.jpg);
         float: right;
         background-repeat: no-repeat;
@@ -584,7 +585,13 @@ ul li a:hover{
         }
     
         .box1_right .text_box{
-            padding-top: 18rem;}
+            padding-top: 16rem;}
+            .box1_right .text_box h1{
+                font-size: 1.8rem;
+                padding-bottom: 1rem;}
+            .box1_right .text_box p{
+                font-size: 1.1rem;
+                padding-bottom: 1rem;}
     
     /* box1 end */
 
@@ -599,10 +606,11 @@ ul li a:hover{
     
     .box3 .inner h1 {
         padding-top: 3rem;
-        padding-bottom: 5rem;
+        padding-bottom: 6rem;
         }
     
     .box3_imgset .list {
+        padding-left: 0.2rem;
         width: calc(100% / 3 - 3.5%);
         height: 42rem;
         }
@@ -666,16 +674,16 @@ ul li a:hover{
 @media (max-width:400px){
 
     .home .inner .text_box{
-        left: 5.5rem;
+        left: 4.5rem;
     }
 
     .box1 h1{
-        font-size: 2rem;}
+        font-size: 1.8rem;}
     .box1_left .text_box h1{
         font-size: 1.6rem;
         }
     .box1_left .text_box p{
-        font-size: 1rem;
+        font-size: 0.7rem;
         }
 
     .box1_right .text_box h1{
@@ -685,6 +693,7 @@ ul li a:hover{
             font-size: 1rem;
             }
     
+            
     .box3 .inner h1 {
         font-size: 2rem;}
 
