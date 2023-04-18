@@ -319,10 +319,10 @@ footer{
 @media (max-width:400px){
 
 .project{
-  width: 400px;
+  width: 390px;
 }
 .title{
-  width: 400px}
+  width: 390px}
 
 .title h1{
   text-align: center;
@@ -330,14 +330,14 @@ footer{
   font-size: 2.5rem;
 }
 .image{
-  width: 400px;
+  width: 390px;
   height: auto;
 }
 .image img{
-  width: 400px;}
+  width: 390px;}
 
 .concept{
-  width: 400px;
+  width: 390px;
   padding-top: 1rem;
 }
 
@@ -347,7 +347,7 @@ footer{
 }
 
 .design{
-  width: 400px;
+  width: 390px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -360,17 +360,17 @@ footer{
 }
 .design .web{
   height: 500px;
-  width: 350px;
+  width: 330px;
   float: none;
   }
 
 .design .mobile{
   height: 500px;
-  width: 300px;
+  width: 330px;
 }
 
 .footer{
-  width: 400px;
+  width: 390px;
 }
 
 }
