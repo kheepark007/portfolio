@@ -315,8 +315,8 @@ footer{
 }
 
 
-/* 화면너비 0~360px */
-@media (max-width:360px){
+/* 화면너비 0~420px */
+@media (max-width:420px){
 
 .project{
   width: 350px;
@@ -355,7 +355,7 @@ footer{
 }
 .design h1{
   text-align: initial;
-  font-size: 2.5rem;
+  font-size: 2rem;
   padding-left: 1rem;
 }
 .design .web{

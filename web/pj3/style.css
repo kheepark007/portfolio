@@ -321,32 +321,29 @@ footer{
 }
 
 
-/* 화면너비 0~480px */
-@media (max-width:450px){
-.project::-webkit-scrollbar {
-  width: 10px;
- }
+/* 화면너비 0~420px */
+@media (max-width:420px){
 
 .project{
-  width: 440px;
+  width: 350px;
 }
 .title{
-  width: 440px}
+  width: 350px}
 
 .title h1{
   text-align: center;
   padding-left: 1rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 .image{
-  width: 440px;
+  width: 350px;
   height: auto;
 }
 .image img{
-  width: 440px;}
+  width: 350px;}
 
 .concept{
-  width: 440px;
+  width: 350px;
   padding-top: 1rem;
 }
 
@@ -356,7 +353,7 @@ footer{
 }
 
 .design{
-  width: 440px;
+  width: 350px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -364,22 +361,22 @@ footer{
 }
 .design h1{
   text-align: initial;
-  font-size: 2.5rem;
+  font-size: 2rem;
   padding-left: 1rem;
 }
 .design .web{
   height: 500px;
-  width: 360px;
+  width: 290px;
   float: none;
   }
 
 .design .login{
   height: 500px;
-  width: 360px;
+  width: 290px;
 }
 
 .footer{
-  width: 440px;
+  width: 350px;
 }
 
 }
