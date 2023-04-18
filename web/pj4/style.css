@@ -316,13 +316,13 @@ footer{
 
 
 /* 화면너비 0~380px */
-@media (max-width:380px){
+@media (max-width:350px){
 
 .project{
-  width: 370px;
+  width: 340px;
 }
 .title{
-  width: 370px}
+  width: 340px}
 
 .title h1{
   text-align: center;
@@ -330,14 +330,14 @@ footer{
   font-size: 2.5rem;
 }
 .image{
-  width: 370px;
+  width: 340px;
   height: auto;
 }
 .image img{
-  width: 370px;}
+  width: 340px;}
 
 .concept{
-  width: 370px;
+  width: 340px;
   padding-top: 1rem;
 }
 
@@ -347,7 +347,7 @@ footer{
 }
 
 .design{
-  width: 370px;
+  width: 340px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -360,17 +360,17 @@ footer{
 }
 .design .web{
   height: 500px;
-  width: 310px;
+  width: 300px;
   float: none;
   }
 
 .design .mobile{
   height: 500px;
-  width: 310px;
+  width: 300px;
 }
 
 .footer{
-  width: 370px;
+  width: 340px;
 }
 
 }
