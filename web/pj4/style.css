@@ -315,14 +315,14 @@ footer{
 }
 
 
-/* 화면너비 0~400px */
-@media (max-width:400px){
+/* 화면너비 0~380px */
+@media (max-width:380px){
 
 .project{
-  width: 390px;
+  width: 370px;
 }
 .title{
-  width: 390px}
+  width: 370px}
 
 .title h1{
   text-align: center;
@@ -330,14 +330,14 @@ footer{
   font-size: 2.5rem;
 }
 .image{
-  width: 390px;
+  width: 370px;
   height: auto;
 }
 .image img{
-  width: 390px;}
+  width: 370px;}
 
 .concept{
-  width: 390px;
+  width: 370px;
   padding-top: 1rem;
 }
 
@@ -347,7 +347,7 @@ footer{
 }
 
 .design{
-  width: 390px;
+  width: 370px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -360,17 +360,17 @@ footer{
 }
 .design .web{
   height: 500px;
-  width: 330px;
+  width: 310px;
   float: none;
   }
 
 .design .mobile{
   height: 500px;
-  width: 330px;
+  width: 310px;
 }
 
 .footer{
-  width: 390px;
+  width: 370px;
 }
 
 }
