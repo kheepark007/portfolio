@@ -691,7 +691,7 @@ button {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 380px) {
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
@@ -705,6 +705,23 @@ button {
     grid-template-columns: 150px;
     justify-content: center;
   }
+
+  .home__title {
+    font-size: 2.5rem;
+  }
+  
+  .home__description {
+    font-size: 1.2rem;
+  }
+  
+  .home__description1 {
+    font-size: 1rem;
+  }
+
+  .nav__logo {
+    font-size: 1rem;
+  }
+
 }
 
 /* For medium devices */
@@ -712,7 +729,7 @@ button {
   .home__description {
     padding: 0 8rem;
   }
-
+  
   .giving__container {
     grid-template-columns: repeat(2, 142px);
     justify-content: center;
